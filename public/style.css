@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'EBSHunminjeongeumSBA';
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSHunminjeongeum.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+AC00-D7AF;
+}
+
+div {
+    font-family: "NotoSans";
+    font-style: normal;
+    width: 100%;
+}
+.center {
+    position : relative;
+}
+.child{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.xLarge {
+    font-size: 10rem;
+}
+.large{
+    font-size: 7rem;
+}
+.medium{
+    font-size: 5.5rem;
+}
+.medium-container .engSubs{
+    font-size:3rem;
+}
+
+
+h1 {
+    font-family: "EBSHunminjeongeumSBA";
+    /* font-size: 3rem; */
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: overline;
+}
+.engSubs {
+    font-size: 3rem;
+    font-weight: lighter;
+}
