@@ -30,15 +30,17 @@ div {
     font-size: 7rem;
 }
 .medium{
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 .medium-container .engSubs{
-    font-size:3rem;
+    font-size:3.5rem;
 }
 
 
 h1 {
     font-family: "EBSHunminjeongeumSBA";
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     /* font-size: 3rem; */
 }
 a {
@@ -50,4 +52,6 @@ a:hover{
 .engSubs {
     font-size: 3rem;
     font-weight: lighter;
+    margin-top: 0%;
+    padding-top: 0%;
 }
