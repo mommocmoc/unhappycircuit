@@ -30,6 +30,7 @@ a:hover {
 p{
     font-family: "EBSHunminjeongeumSBA";
     margin-top: 0%;
+    margin-bottom: 0%;
     font-size: 1.4em;
     padding-left: 5%;
     padding-right: 5%;
@@ -77,6 +78,14 @@ p{
 }
 .mobile-container{
     width: 100%;
+}
+.large-container{
+    margin: 0%;
+    padding: 0%;
+}
+.medium-container{
+    margin: 0%;
+    padding: 0%;
 }
 .medium-container .engSubs{
     font-size:2rem;
