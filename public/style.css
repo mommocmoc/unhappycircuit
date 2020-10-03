@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 p{
@@ -77,8 +77,10 @@ p{
     padding: 0%;
 }
 .mobile-container{
-    width: 100%;
+    /* width: 100%; */
+    height: 100%;
 }
+
 .large-container{
     margin: 0%;
     padding: 0%;
@@ -100,8 +102,13 @@ p{
     padding-left: 45%;
     text-align: center;
 }
-
-
+.vertical .letter{
+    text-decoration: none;
+}
+.letter {
+    margin-bottom: 0.4em;
+    background-color: rgba(0, 0, 0, 0);
+}
 .engSubs {
     font-size: 3rem;
     font-weight: lighter;
