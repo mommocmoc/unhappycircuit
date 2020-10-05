@@ -7,7 +7,9 @@
 	font-style: normal;
 	unicode-range: U+AC00-D7AF;
 }
-
+* {
+	-webkit-overflow-scrolling: touch;
+}
 html, body {
 	font-family: "NotoSans";
 	font-style: normal;
